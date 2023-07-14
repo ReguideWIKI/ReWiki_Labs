@@ -1,0 +1,20 @@
+{
+  "name": "ReWiki Labs",
+  "description": "ReWiki Labs.",
+  "keywords": [
+    "contentful",
+    "gatsby",
+    "static",
+    "ssg"
+  ],
+  "repository": "https://github.com/",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    }
+  ]
+}
